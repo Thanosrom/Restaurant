@@ -1,0 +1,103 @@
+.homeDiv{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 4.5rem;
+    background-color: #2b2b2b;
+    box-shadow:inset 0 0 25rem rgba(100, 255 , 115,2) !important;
+    overflow: hidden;
+}
+
+.homeHeading{
+    text-align: center;
+}
+
+.checkBoxGroupBox{ 
+    width:80%;
+    height: 100%;
+    border-radius: 1rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.dishesBox{
+    width:80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.homeTextsControl{
+    text-align: center;
+}
+
+.homeDishesName{
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    
+    .homeDiv {
+      padding: 2rem;
+    }
+  
+    .checkBoxGroupBox,
+    .dishesBox {
+      width: 100%;
+      padding: 1rem;
+    }
+  }
+
+@media (max-width: 302px) {
+
+    .homeDiv {
+      padding: 2rem;
+    }
+
+    .checkBoxGroupBox,
+    .dishesBox {
+      width: 100%;
+      padding: 2rem;
+    }
+
+    .homeDishButtons{
+        font-size: 0.5rem !important;
+        height: 5vh !important;
+    }
+
+    .homeCard{
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+    .homeTextsControl{
+        font-size: 0.45rem;
+        text-align: center;
+    }
+
+    .homeDishesName{
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .homeHeading{
+        font-size: 1rem !important;
+        text-align: center;
+    }
+  }

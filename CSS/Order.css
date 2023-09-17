@@ -1,0 +1,63 @@
+.orderDiv{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4.5rem;
+    background-color: black;
+    box-shadow:inset 0 0 25rem rgba(100, 255 , 115,2) !important;
+}
+
+.orderBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    height: 100;
+    width: 100%;
+}
+
+.orderButton{
+    width: 50%;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.orderText{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: green;
+    font-size: large;
+}
+
+.orderModal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+@media (min-device-width: 300px) and (max-device-width: 540px)   {
+
+    .orderButton{
+        width: 80%;
+    }
+}
+
+@media (min-device-width: 0px) and (max-device-width: 299px)   {
+
+    .orderButton{
+        width: 100%;
+    }
+
+    .orderButtonText{
+        font-size: 0.65rem;
+    }
+}
