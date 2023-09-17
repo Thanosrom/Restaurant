@@ -24,6 +24,7 @@ Port running on localhost:3000
 
                 
 The packages you gonna need are : 
+
 ```
     "@chakra-ui/react": "^2.8.1",
     "@emotion/react": "^11.11.1",
@@ -42,11 +43,13 @@ The packages you gonna need are :
     "sort-by": "^1.2.0",
     "web-vitals": "^2.1.4"
 ```
+
 **Back End**
 
 Server Running on port 5000.
 
 Package.json : 
+
 ```
 {
   "name": "backend",
@@ -71,3 +74,4 @@ Package.json :
   }
 }
 ```
+
