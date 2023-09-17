@@ -3,6 +3,9 @@
 Steps to configure the repo : 
 
 **Front End**
+
+Port running on localhost:3000 
+
 1)In the Home file you should go to the line No.42 and change the URL with your own.
 
   useEffect(() => {
@@ -10,6 +13,7 @@ Steps to configure the repo :
     fetch(apiUrl)
       .then((response) => {
         if (!response.ok) { ....
+
 
 2)You should do the same with informations.js file in line No.28 
           useEffect(() => {
@@ -40,4 +44,30 @@ The packages you gonna need are :
 
 **Back End**
 
+Server Running on port 5000.
+
+Package.json : 
+
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
 
